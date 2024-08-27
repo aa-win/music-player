@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/10b662ef5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="playlistContainer"></div>
+        <audio src="" class="audioTag"></audio>
+        <div class="currentAndTotalTime">00:00/00:00</div>
+        <div id="progressBar">
+            <div id="currentProgress">
+            </div>
+        </div>
+        <div class="musicPlayer">
+            <i class="fas fa-step-backward controls previousButton"></i>
+            <i class="fas fa-play-circle controls playButton"></i>
+            <i class="far fa-pause-circle controls pauseButton"></i>
+            <i class="fas fa-step-forward controls nextButton"></i>
+        </div>                
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
